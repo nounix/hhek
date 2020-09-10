@@ -1,0 +1,39 @@
+1. Zielbestimmung:
+	- MUSS-Kirterien:
+		- Verwaltung von Schülernoten
+		- Prototyp als C#-Consolen Anwendung 
+		- Noten Eingabe (Fach, Datum, Notenart)
+		- Automatische Berechnung von Jahresendnoten
+	- Wunsch-Kriterien:
+		- Einagbe von Noten für besondere Unterrichtsbeteiligung
+		- Noten verschlüsselt speichern
+		- Seperierte Dateien für Schuljahrestermine, Feiertage und Klausuren
+2. Einsatz:
+	- Das Program soll von Schülern und Lehrern genutzt werden.
+	- Um den Austausch der Noten Vorstellungen zu vereinfachen und somit
+		eine transparentere und gerechtere Noten Vergabe zu ermöglichen.
+	- Die Noten sollten online synchronisiert werden können.
+3. Produktübersicht:
+4. Funktionen:
+	
+
+1. Dokumentation der Ausgangslage und Definition der Ziele:
+	- Program zur Verwaltung von Schüler Schulnoten
+2. Beschreiben der Prozessabläufe:
+	- Erweitertes Wasserfallmodell ??
+		- lineares Vorgehensmodell
+		- Gut geeignet für kleine risikolose Projekte
+			Anforderung -> Entwurf -> Implementation -> Testen -> Deployen
+3. Soll-Konzept:
+	- Prototyp als C#-Consolen Anwendung 
+	- Noten Eingabe (Fach, Datum, Notenart)
+	- Einagbe von Noten für besondere Unterrichtsbeteiligung
+	- Automatische Berechnung von Jahresendnoten
+	- Serialisierungsformat: ini
+	- Noten verschlüsselt speichern
+	- Seperierte Dateien für Schuljahrestermine, Feiertage und Klausuren
+	- Architektur pattern, welches Ein-/Ausgabe von Programmlogik trennt
+	- Funktionales User-Interface
+4. Beschreibung tech Struktur:
+	- MVC architekure with observer pattern
+5. ... see on wiki.induux.de & anwendungsentwickler.net ihk bsp arbeit, oldenburg

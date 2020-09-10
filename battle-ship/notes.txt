@@ -1,0 +1,27 @@
+- wenn man icollections implementiert, warum dann noch ienumerate angeben??
+- bottleneck durch payload als object ein interface for all sended objects
+- wir haben 2 user modelle, server, client, sollen die gleich sein?
+    - soll der client sein modell nicht selbst erstellen dürfen, sondern
+        seine daten nur vom server beziehen und wie hält man dann beide sync?
+    - oder einfach immer alles vom server bei bedarf ziehen und user hat dann
+        nur client und name -> session?
+- deserialization of response payload looks very dangerous and you never know what u get...
+    is there a better way? (actually its exactly what i want... send and recieve everything)
+- PrintOptions rm side effect start = Top??
+- dont need to pass TcpClient to handler??
+- where to check if ship points are valid??
+- placeShips throw execption or return boolean
+- dont pass always same session to client.send make something like stub, maybe with closure
+- add architecture description into readme
+- sign client session data, so not need to save on server for validation
+- add hits class like ship but simpler
+- rename server controller & view
+- is the shared model (dependency) beautiful?
+- add generic DAO
+- make serialization and server stuff not crashing app
+- schiffe bleiben schiffe also immer S nur hits ändern sich, oder ne besser nicht
+- add util func which executes func only if debugging is active
+- how to implement event pattern the best way?
+- soll ich immer alle nicht primitiven felder füllen zB Session id und dict? ist doch dann leichter zu testen
+- i want to move session and credentials into framework, but make it sense?
+- does it make sense to add a IDao?

@@ -1,0 +1,56 @@
+Time keeper:
+-13.05
+	- 12:00 - 12:35
+		- create Pflichtenheft
+-14.05
+	- 13:38 - 14:15
+		- extend Pflichtenheft
+-27.05
+	- 11:25 - 12:20
+		- choose base architecture
+-28.05
+	- 11:30 - 14:00
+		- test base architecture
+	- 16:17 - 17:56
+		- create base architecture
+-30.05
+    - 23:12 - 23:36
+        - add serialization and mod base architecture
+-31.05
+    - 21:17 - 22:52
+        - add views, controllers
+- 01.06
+    - 11:20 - 13:37
+        - add last views, controllers
+        - DB add setGrade func
+        - add navigation view to view bidirection
+- 04.06
+    - 11:24 - 12:40
+        - add deserialization
+    - 13:00 - 14:18
+        - add deserialization
+    - 18:21 - 20:32
+        - fix deserialization
+        - add new option selection (credits to Jakob G. for the idea)
+- 05.06
+    - 20:04 - 22:28
+        - refactor option selection
+        - add Context object
+        - fix deserialization
+- 08.06
+    - 18:00 - 18:40
+        - refactor whole project to use new option selection
+        - try to fix Context obj passed by value to closure
+        - add Terminal class for central printing reading
+    - 20:46 - 22:50
+        - fixed Context obj bug
+        - refactor whole project
+- 10.06
+    - 12:08 - 17:21
+        - add Grade, appointment class
+        - changed way of printing view
+        - add status bar
+        - run rider code clean up
+    - 19:22 - 21:00
+        - refactor context and terminal
+        - add events to models

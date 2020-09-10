@@ -1,0 +1,20 @@
+In der Program Klasse wird ein 2D Spielfeld erzeugt und solange
+keine Taste gedrückt wurde oder das Leben der Ameisen vorbei ist, werden die Ameisen bewegt.
+In der Field Klasse wird das 2D Feld (hashtags dienen zur Umrandung)
+erzeugt und auch die darauf liegenden Ameisen, Königinnen und Essen.
+
+Um die Ändrungen auf unser Feld zu übertragen, gibt es eine "update" function, welche immer bevor man das feld ausgibt erst mal das Feld aktualisiert.
+
+Die "print" function gibt das 2D Feld aus und cleared die std ausgabe
+vor jedem ausgeben, um ein richtiges FPS spiel erlebniss zu schaffen.
+
+Mein zusatz Feature ist das Essen, welches random plaziert wird und
+und von den Ameisen gegessen werden kann.
+
+// Bezüglich unserer Disskusion, on referenz aufs ganze Objekt oder
+// nur auf die einzelne Funktion übergeben werden sollte, bei der
+// "Move" Funktion:
+Während des Programmierens habe ich gemerkt, dass es doch "schöner"
+ist, das ganze Objekt zu übergeben, da ich im Endeffekt auf meherere
+Funktionen und Attribute der Field Klasse zugreigfen musste.
+

@@ -1,0 +1,39 @@
+- wie getGrades als lehrer security?
+    - Student obj oder nur List(string)
+- upcast user to student bad?
+    - doLogin return User or student/teacher?
+    - then how passing child obj from view to view?
+        - at the end i need again a child obj for grades/students
+        - User is abstract... there cant be a base User obj :'D
+        - but what to do if there could be a base User obj??
+- should i uses ctx obj? for passing model and other data from view to view    
+- global event in User for changing value? von klasse zu klasse event werfen bis zu User?
+- always need to cast and check between student teacher.. maybe better way?
+- user attributes access very ugly, need to simplify
+- refactor code to controllers, but how to divide?
+- isTeacherOf pass teacher obj, not name & pwd?
+- real mvc my views would all subscribe to Context events right?
+    - cuz Context is my BIG model
+    - then i would jump from view to view by event and dont pass funcs around
+    - how to handle multiple models ( + multiple views )
+    - call event in constructor or in custom add func on list
+    - if use event in constructor then i cant throw event on list with primitive type
+- GetGrades func, cast User to Teacher and use method or directly use DB.getGrades
+- wo leben alle view objekte
+- why login event exit before executing login.render()
+- context obj should hold main-view and last-view action?
+- make base view which holds setup func to reduce code?
+- gehört terminal zum context?
+- view properties private and pass ref to controller or public and pass just view, i even dont need the view...?
+- for better code reusability do all ui stuff in the view, so the controller holds just the independent logic code?
+- change currentview in controller or send event from model to context and there change currentview?
+- saving service or not? implement as own service or put into db class
+- db userschanged good idea? need to sync, threadsafe
+- dont create every time new view, use as singleton?
+
+TODO:
+- start DB func which loads all users and starts saving service
+- test passed func
+- autofill students list in teacher, when adding new subject to course
+- liveData change grade as teacher live update view in 2 terminal student login
+- util func check all inputs, readline

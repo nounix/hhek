@@ -1,0 +1,6 @@
+grades-manager:
+- frontend
+- backend
+- encryption
+- serialization (ini)
+- 
